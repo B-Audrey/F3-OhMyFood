@@ -1,0 +1,22 @@
+@import 'abstracts/mixins';
+@import 'abstract/variables';
+
+@import 'base/base';
+@import 'base/typograpy';
+@import 'base/animations';
+
+@import 'layout/header';
+@import 'layout/menu';
+@import 'layout/footer';
+
+@import 'components/loader';
+@import 'components/buttons';
+@import 'components/card';
+@import 'components/food';
+@import 'components/heart';
+@import 'components/presentation';
+
+@import 'pages/home';
+@import 'pages/restaurant';
+
+@import 'theme/theme';
