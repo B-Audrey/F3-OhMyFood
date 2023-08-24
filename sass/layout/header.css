@@ -22,6 +22,9 @@
   height: 100%;
   padding: 0;
 }
+.header__previousLink:active {
+  color: #353535;
+}
 .header__previousLink i {
   color: #353535;
 }
