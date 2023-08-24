@@ -5,7 +5,12 @@
   justify-content: center;
 }
 .header__logo {
-  width: 197px;
+  width: 162px;
+}
+@media (min-width: 992px) {
+  .header__logo {
+    width: 200px;
+  }
 }
 .header__previousButton {
   background-color: transparent;

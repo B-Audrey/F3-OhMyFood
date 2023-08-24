@@ -1,1 +1,51 @@
 @import '../abstracts/variablesAndMixins.scss';
+
+.footer {
+    background-color: $dark-background-color;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    @media (min-width: $desktop-size){
+        padding: 2%;
+        height: 114px;
+        box-sizing: border-box;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+    }
+    &__title{
+        color: white;
+        margin-bottom: 1em;
+        @media (min-width: $desktop-size){
+            margin-bottom: 0.2em;
+        }
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        @media (min-width: $desktop-size){
+            width: 65%;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: space-around;
+        }
+    }
+    &__content ul {
+        display: flex;
+        flex-direction: column;
+        @media (min-width: $desktop-size){
+            flex-direction: row;
+        }
+    }
+    &__link{
+        padding: 0.25em;
+        @media (min-width: $desktop-size){
+            padding: 0.5em;
+        }
+    }
+    &__link a{
+        color: white;
+    } 
+    &__link--bold{
+        font-weight: 500;
+    }
+}
