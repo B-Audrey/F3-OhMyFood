@@ -1,0 +1,19 @@
+{
+  "name": "f3-ohmyfood",
+  "version": "1.0.0",
+  "description": "OhMyFood",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-Audrey/F3-OhMyFood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B-Audrey/F3-OhMyFood/issues"
+  },
+  "homepage": "https://github.com/B-Audrey/F3-OhMyFood#readme"
+}
