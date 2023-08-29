@@ -1,1 +1,5 @@
 @import '../abstracts/variablesAndMixins.scss';
+
+.tag__text i:hover{
+    color: $primary-color;
+}

@@ -1,1 +1,44 @@
 @import '../abstracts/variablesAndMixins.scss';
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__form{
+        background-color: $darken-background-color;
+        width: 100%;
+    }
+    &__form form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    &__form input, label {
+        background-color: transparent;
+        color: $dark-background-color;
+        font-size: 1.2em;
+        font-weight: 500;
+        margin: 0 0.2em;
+    }
+    &__form input{
+        border: none;
+        width: 130px;
+    }
+}
+
+.presentation{
+    &__title{
+        width: 100%;
+        box-sizing: border-box;
+        background-color: $light-background-color;
+        padding: 1em;
+        text-align: center;
+        & h1{
+            padding: 3% 15%;
+        }
+        & button {
+            margin: 1.5em;
+        }
+    }
+}

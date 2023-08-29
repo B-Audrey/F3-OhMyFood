@@ -1,1 +1,28 @@
 @import '../abstracts/variablesAndMixins.scss';
+
+.presentation__form{
+    box-shadow: inset 2px 2px 2px 0px #00000026;
+}
+
+.fonctionnement, .restaurants {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10%;
+}
+
+.fonctionnement__content {
+    padding-left: 10px ;
+}
+
+.restaurants__content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.restaurants {
+    padding-bottom: 50px;
+    background-color: $darken-background-color;
+}

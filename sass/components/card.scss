@@ -1,1 +1,50 @@
 @import '../abstracts/variablesAndMixins.scss';
+
+.card {
+    box-sizing: border-box;
+    width: 100%;    
+    margin-top: -10px;
+    &__content {
+        box-sizing: border-box;
+        background-color: $white;
+        border-radius: 15px;
+        box-shadow: 0px 4px 15px 0px #0000001A;
+        display: flex;
+        flex-direction: column;
+    }
+    &__newRestaurant {
+        width: 80px;
+        height: 29px;
+        color: $second-dark-color;
+        background-color: $second-light-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 2px 4px 0px #00000026;
+        border-radius: 2px;
+        align-self: flex-end;
+        position: relative;
+        top: 40px;
+        right: 15px;
+    }
+    &__newRestaurant--hidden{
+        height: 29px;
+        opacity: 0;
+    }
+    & img {
+        width: 100%;
+        height: 174px;
+        object-fit: cover;
+        border-radius: 15px 15px 0px 0px;
+    }
+    &__blocText {
+        color: $black;
+        display: flex;
+        padding: 0.5em;
+        box-sizing: border-box;
+        height: 77px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
