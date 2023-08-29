@@ -1,12 +1,13 @@
 @import '../abstracts/variablesAndMixins.scss';
 
 .presentation{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     &__form{
         background-color: $darken-background-color;
         width: 100%;
+        box-shadow: inset 2px 2px 2px 0px #00000026;
+        @media (min-width: $desktop-size){
+            box-shadow: none;
+        }
     }
     &__form form{
         display: flex;
@@ -27,18 +28,4 @@
     }
 }
 
-.presentation{
-    &__title{
-        width: 100%;
-        box-sizing: border-box;
-        background-color: $light-background-color;
-        padding: 1em;
-        text-align: center;
-        & h1{
-            padding: 3% 15%;
-        }
-        & button {
-            margin: 1.5em;
-        }
-    }
-}
+

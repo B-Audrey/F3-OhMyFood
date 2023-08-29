@@ -1,23 +1,59 @@
-.presentation__form {
-  box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.1490196078);
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.presentation__title {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 287px;
+}
+@media (min-width: 992px) {
+  .presentation__title {
+    height: 239px;
+  }
+}
+.presentation__title button {
+  width: 220px;
 }
 
 .fonctionnement, .restaurants {
   display: flex;
   flex-direction: column;
   margin: auto;
-  padding: 10%;
+  padding: 0 10%;
 }
 
 .fonctionnement__content {
+  display: flex;
+  flex-direction: column;
   padding-left: 10px;
+  padding-bottom: 25px;
+}
+@media (min-width: 992px) {
+  .fonctionnement__content {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 .restaurants__content {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   width: 100%;
   box-sizing: border-box;
+  justify-items: center;
+}
+@media (min-width: 992px) {
+  .restaurants__content {
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
 }
 
 .restaurants {

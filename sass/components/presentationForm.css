@@ -1,11 +1,12 @@
-.presentation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .presentation__form {
   background-color: #EAEAEA;
   width: 100%;
+  box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.1490196078);
+}
+@media (min-width: 992px) {
+  .presentation__form {
+    box-shadow: none;
+  }
 }
 .presentation__form form {
   display: flex;
@@ -23,18 +24,4 @@
 .presentation__form input {
   border: none;
   width: 130px;
-}
-
-.presentation__title {
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #F6F6F6;
-  padding: 1em;
-  text-align: center;
-}
-.presentation__title h1 {
-  padding: 3% 15%;
-}
-.presentation__title button {
-  margin: 1.5em;
-}/*# sourceMappingURL=presentation.css.map */
+}/*# sourceMappingURL=presentationForm.css.map */
