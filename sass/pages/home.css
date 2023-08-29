@@ -13,14 +13,16 @@
   justify-content: space-around;
   align-items: center;
   height: 287px;
+  font-weight: 300;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0 5%;
+  text-align: center;
 }
 @media (min-width: 992px) {
   .presentation__title {
     height: 239px;
   }
-}
-.presentation__title button {
-  width: 220px;
 }
 
 .fonctionnement, .restaurants {

@@ -9,6 +9,13 @@ p {
 }
 
 h1 {
+  font-family: "Shrikhand";
+  font-size: 2.5em;
+  color: black;
+  text-align: center;
+}
+
+h2 {
   font-weight: 700;
   font-size: 1.5em;
   margin: 0;
@@ -16,17 +23,9 @@ h1 {
   text-align: center;
 }
 @media (min-width: 992px) {
-  h1 {
+  h2 {
     font-size: 2em;
   }
-}
-
-h2 {
-  font-weight: 300;
-  font-size: 1.2em;
-  margin: 0;
-  padding: 0 5%;
-  text-align: center;
 }
 
 h3 {

@@ -14,11 +14,13 @@
         justify-content: space-around;
         align-items: center;
         height: 287px;
+        font-weight: 300;
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0 5%;
+        text-align: center;
         @media (min-width: $desktop-size){
             height: 239px;
-        }
-        & button {
-            width: 220px ;
         }
     }
 }
