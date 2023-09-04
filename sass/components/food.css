@@ -11,18 +11,25 @@
   margin: 1em 0 0 0;
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
 }
-.menu div {
+.menu__text {
   max-height: 42px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  border: 1px solid red;
 }
 .menu__name {
   font-weight: 500;
   font-size: 1.1em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .menu__description {
   font-size: 0.9em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .menu__price {
   color: #353535;

@@ -12,18 +12,25 @@
     margin: 1em 0 0 0;
     box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.10);
     }
-    & div {
+    &__text {
         max-height: 42px;
         text-overflow: ellipsis; //tronque avec '...'
         overflow: hidden; // cache le texte manquant
         white-space: nowrap; //empeche tout retour à la ligne
+        border: 1px solid red;
     }
     &__name{
         font-weight: 500;
         font-size: 1.1em ;
+        text-overflow: ellipsis; //tronque avec '...'
+        overflow: hidden; // cache le texte manquant
+        white-space: nowrap; //empeche tout retour à la ligne
     }
     &__description{
         font-size: 0.9em;
+        text-overflow: ellipsis; //tronque avec '...'
+        overflow: hidden; // cache le texte manquant
+        white-space: nowrap; //empeche tout retour à la ligne
     }
     &__price{
         color: $dark-background-color;
