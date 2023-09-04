@@ -13,6 +13,9 @@
 }
 .menu div {
   max-height: 42px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .menu__name {
   font-weight: 500;
@@ -24,4 +27,5 @@
 .menu__price {
   color: #353535;
   font-weight: 700;
+  margin-left: 5px;
 }/*# sourceMappingURL=food.css.map */
