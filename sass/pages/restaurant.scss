@@ -1,1 +1,31 @@
 @import '../abstracts/variablesAndMixins.scss';
+
+.restaurant__backgroundImg{
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    z-index: -1;
+    position: relative; //permets de détacher l'image de le succession d'éléments
+}
+
+.restaurantMenu {
+    background-color: $light-background-color;
+    border-radius: 40px 40px 0 0;
+    margin-top: -75px;
+    box-sizing: border-box;
+    padding: 0 1.5em;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.restaurant__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.restaurant__button {
+    margin: 2em;
+}

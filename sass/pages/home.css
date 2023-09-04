@@ -24,6 +24,17 @@
     height: 239px;
   }
 }
+.presentation__title h2 {
+  padding: 0 15%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+@media (min-width: 992px) {
+  .presentation__title h2 {
+    font-size: 2em;
+  }
+}
 
 .fonctionnement, .restaurants {
   display: flex;

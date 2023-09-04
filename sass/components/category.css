@@ -1,0 +1,9 @@
+.category__title {
+  font-weight: 300;
+}
+.category__underline {
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #99E2D0;
+}/*# sourceMappingURL=category.css.map */

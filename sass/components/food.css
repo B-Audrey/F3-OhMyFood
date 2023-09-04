@@ -1,1 +1,27 @@
-/*# sourceMappingURL=food.css.map */
+.menu {
+  width: 100%;
+}
+.menu__food {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 1em 0;
+  box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
+}
+.menu div {
+  max-height: 42px;
+}
+.menu__name {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+.menu__description {
+  font-size: 0.9em;
+}
+.menu__price {
+  color: #353535;
+  font-weight: 700;
+}/*# sourceMappingURL=food.css.map */

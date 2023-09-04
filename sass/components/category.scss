@@ -1,0 +1,14 @@
+@import '../abstracts/variablesAndMixins.scss';
+
+.category{
+    
+    &__title{
+        font-weight: 300;
+    }
+    &__underline{
+        display: block;
+        width: 40px;
+        height: 3px;
+        background-color: $second-light-color;
+    }
+}
