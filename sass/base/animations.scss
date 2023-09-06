@@ -1,5 +1,24 @@
 @import '../abstracts/variablesAndMixins.scss';
 
-.tag__text i:hover{
-    color: $primary-color;
+.tag:hover { //au survol du bloc tag
+    & i{ //l'icone devient violet
+        color:$primary-color;
+    }
+}
+
+.button:hover{ // au survol du boutton
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35); //augmente les ombres
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), linear-gradient(to top, #9356DC -5.2%, #FF79DA 110.74%); //et applique les modifications de couleurs depuis le top, applique l'éclaircicement en bas puis en haut sur la couleur en second paramètre
+}
+
+.full-heart{ 
+    opacity: 0; //cache le coeur plein
+    transition: all 500ms; //agit à la transition
+}
+.full-heart:hover{
+    opacity: 1; //affiche le coeur plein
+    color: transparent; //part d'un fond vide
+    background-image: linear-gradient(to bottom, #9356DC -5.2%, #FF79DA 110.74%); //rempli le fond avec le gradient
+    background-clip: text; //place le coeur en tant que texte pour que le fond ne s'applique qu'à l'intérieur
+    -webkit-background-clip: text; //idem pour navigateur Chrome
 }

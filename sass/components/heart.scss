@@ -1,1 +1,14 @@
 @import '../abstracts/variablesAndMixins.scss';
+.heart{ //le bloc des deux coeurs
+    border: none;
+    background-color: $white;
+    color: black;
+    width: 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    & i { //selecionne les deux coeurs
+        position: absolute;
+        font-size: 1.5em;
+    }
+}
