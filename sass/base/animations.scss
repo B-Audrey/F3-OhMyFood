@@ -22,3 +22,11 @@
     background-clip: text; //place le coeur en tant que texte pour que le fond ne s'applique qu'à l'intérieur
     -webkit-background-clip: text; //idem pour navigateur Chrome
 }
+
+.menu__price:hover + .check-box{ //selectionne le .checkbox qui suit le menu__price dans le DOM
+    max-width: 4.5em;
+}
+
+.menu__price:hover + .fa-circle-check {
+    transform: translateX(-90%);
+}

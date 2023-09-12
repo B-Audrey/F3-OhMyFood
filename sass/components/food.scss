@@ -5,11 +5,17 @@
     &__food{
     background-color: $white;
     border-radius: 15px;
-    padding: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-end;
     margin: 1em 0 0 0;
     box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.10);
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding: 1em;
     }
     &__text {
         max-height: 42px;
@@ -32,17 +38,11 @@
         white-space: nowrap; //empeche tout retour à la ligne
     }
     &__price{
+        border: 2px solid red;
         color: $dark-background-color;
         font-weight: 700;
-        margin-left: 5px;
+        margin-left: auto;
+        padding: 1em;
         min-width: 30px; //le prix reste toujours visible et ne descends pas sous les 30px
     }
-}
-.food__content{
-    display: flex;
-    justify-content: space-between;
-}
-
-.fa-circle-check{
-
 }

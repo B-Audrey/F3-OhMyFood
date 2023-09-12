@@ -1,0 +1,23 @@
+@import '../abstracts/variablesAndMixins.scss';
+
+.check-box{
+    display: flex;
+    align-items: center;
+    justify-content: center ; 
+    border-radius: 0 15px 15px 0;
+    overflow: hidden;
+    height: 4.5em;
+    max-width: 0;
+    background-color: $second-light-color;
+    transition: max-width 500ms ease-in-out;  
+    
+}
+.fa-circle-check {
+    transition: transform 300ms;
+    color: $white;
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 1em;
+    overflow: hidden;
+    transform: translateX(0); //position de depart
+}

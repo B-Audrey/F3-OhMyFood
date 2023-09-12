@@ -18,4 +18,12 @@
   background-image: linear-gradient(to bottom, #9356DC -5.2%, #FF79DA 110.74%);
   background-clip: text;
   -webkit-background-clip: text;
+}
+
+.menu__price:hover + .check-box {
+  max-width: 4.5em;
+}
+
+.menu__price:hover + .fa-circle-check {
+  transform: translateX(-90%);
 }/*# sourceMappingURL=animations.css.map */
