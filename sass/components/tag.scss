@@ -1,6 +1,7 @@
 @import '../abstracts/variablesAndMixins.scss';
 
 .tag{
+    cursor: default;
     display: flex;
     flex-direction: row;
     background: $light-background-color;

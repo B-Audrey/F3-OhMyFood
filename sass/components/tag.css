@@ -1,4 +1,5 @@
 .tag {
+  cursor: default;
   display: flex;
   flex-direction: row;
   background: #F6F6F6;

@@ -6,8 +6,7 @@
   border-radius: 15px;
   padding: 15px;
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  flex-direction: column;
   margin: 1em 0 0 0;
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
 }
@@ -35,4 +34,10 @@
   color: #353535;
   font-weight: 700;
   margin-left: 5px;
+  min-width: 30px;
+}
+
+.food__content {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=food.css.map */

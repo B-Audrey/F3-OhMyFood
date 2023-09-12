@@ -1,4 +1,5 @@
 .heart {
+  margin: 0 2em;
   border: none;
   background-color: white;
   color: black;
@@ -6,6 +7,7 @@
   height: 100%;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .heart i {
   position: absolute;
