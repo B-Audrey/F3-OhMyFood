@@ -3,13 +3,13 @@
 .menu{
     width: 100%;
     &__food{
-    background-color: $white;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    margin: 1em 0 0 0;
-    box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.10);
+        background-color: $white;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin: 1em 0 0 0;
+        box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.10);
     }
     &__content{
         display: flex;

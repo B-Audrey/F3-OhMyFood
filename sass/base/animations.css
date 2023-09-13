@@ -21,9 +21,6 @@
 }
 
 .menu__price:hover + .check-box {
-  max-width: 4.5em;
-}
-
-.menu__price:hover + .fa-circle-check {
-  transform: translateX(-90%);
+  transform: translateX(0%);
+  width: 4.5em;
 }/*# sourceMappingURL=animations.css.map */
