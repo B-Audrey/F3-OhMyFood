@@ -16,12 +16,12 @@
         flex-direction: column;
         align-self: center;
         padding: 1em;
-    }
-    &__text {
-        max-height: 42px;
         text-overflow: ellipsis; //tronque avec '...'
         overflow: hidden; // cache le texte manquant
         white-space: nowrap; //empeche tout retour à la ligne
+    }
+    &__text {
+        max-height: 42px;
         border: 1px solid red;
     }
     &__name{
@@ -38,7 +38,6 @@
         white-space: nowrap; //empeche tout retour à la ligne
     }
     &__price{
-        border: 2px solid red;
         color: $dark-background-color;
         font-weight: 700;
         margin-left: auto;

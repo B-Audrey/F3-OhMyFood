@@ -15,12 +15,12 @@
   flex-direction: column;
   align-self: center;
   padding: 1em;
-}
-.menu__text {
-  max-height: 42px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+}
+.menu__text {
+  max-height: 42px;
   border: 1px solid red;
 }
 .menu__name {
@@ -37,7 +37,6 @@
   white-space: nowrap;
 }
 .menu__price {
-  border: 2px solid red;
   color: #353535;
   font-weight: 700;
   margin-left: auto;

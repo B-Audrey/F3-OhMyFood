@@ -1,5 +1,6 @@
 .tag:hover i {
   color: #9356DC;
+  border: none;
 }
 
 .button:hover {
@@ -23,4 +24,28 @@
 .menu__price:hover + .check-box {
   transform: translateX(0%);
   width: 4.5em;
+}
+
+#starter {
+  opacity: 0;
+  animation: displayBloc 300ms 250ms forwards;
+}
+
+#main-course {
+  opacity: 0;
+  animation: displayBloc 300ms 500ms forwards;
+}
+
+#dessert {
+  opacity: 0;
+  animation: displayBloc 300ms 750ms forwards;
+}
+
+@keyframes displayBloc {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=animations.css.map */

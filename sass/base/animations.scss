@@ -3,6 +3,7 @@
 .tag:hover { //au survol du bloc tag
     & i{ //l'icone devient violet
         color:$primary-color;
+        border: none;
     }
 }
 
@@ -26,4 +27,31 @@
 .menu__price:hover + .check-box{ //selectionne le .checkbox qui suit le menu__price dans le DOM
     transform: translateX(0%);
     width: 4.5em;
+
+}
+
+#starter{
+    opacity:0;
+    animation: displayBloc 300ms 250ms forwards; //name, duration, delay, fill-mode
+}
+
+#main-course{
+    opacity:0;
+    animation: displayBloc 300ms 500ms forwards;
+
+}
+
+#dessert {
+    opacity:0;
+    animation: displayBloc 300ms 750ms forwards;
+
+}
+
+@keyframes displayBloc {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
