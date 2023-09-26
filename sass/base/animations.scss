@@ -14,17 +14,17 @@
 
 .full-heart{ 
     opacity: 0; //cache le coeur plein
-    transition: all 500ms; //agit à la transition
-}
-.full-heart:hover{
-    opacity: 1; //affiche le coeur plein
-    color: transparent; //part d'un fond vide
+    color: transparent;
+    transition: opacity 1500ms; //agit à la transition
     background-image: linear-gradient(to bottom, #9356DC -5.2%, #FF79DA 110.74%); //rempli le fond avec le gradient
     background-clip: text; //place le coeur en tant que texte pour que le fond ne s'applique qu'à l'intérieur
     -webkit-background-clip: text; //idem pour navigateur Chrome
 }
+.full-heart:hover{
+    opacity: 1; //affiche le coeur plein
+}
 
-.menu__price:hover + .check-box{ //selectionne le .checkbox qui suit le menu__price dans le DOM
+.menu__food:hover > .check-box{ //selectionne le .checkbox qui suit le menu__price dans le DOM
     transform: translateX(0%);
     width: 4.5em;
 
@@ -32,18 +32,18 @@
 
 #starter{
     opacity:0;
-    animation: displayBloc 300ms 250ms forwards; //name, duration, delay, fill-mode
+    animation: displayBloc 500ms 250ms forwards; //name, duration, delay, fill-mode
 }
 
 #main-course{
     opacity:0;
-    animation: displayBloc 300ms 500ms forwards;
+    animation: displayBloc 500ms 750ms forwards;
 
 }
 
 #dessert {
     opacity:0;
-    animation: displayBloc 300ms 750ms forwards;
+    animation: displayBloc 500ms 1250ms forwards;
 
 }
 

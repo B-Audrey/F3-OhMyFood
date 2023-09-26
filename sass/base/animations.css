@@ -10,35 +10,35 @@
 
 .full-heart {
   opacity: 0;
-  transition: all 500ms;
-}
-
-.full-heart:hover {
-  opacity: 1;
   color: transparent;
+  transition: opacity 1500ms;
   background-image: linear-gradient(to bottom, #9356DC -5.2%, #FF79DA 110.74%);
   background-clip: text;
   -webkit-background-clip: text;
 }
 
-.menu__price:hover + .check-box {
+.full-heart:hover {
+  opacity: 1;
+}
+
+.menu__food:hover > .check-box {
   transform: translateX(0%);
   width: 4.5em;
 }
 
 #starter {
   opacity: 0;
-  animation: displayBloc 300ms 250ms forwards;
+  animation: displayBloc 500ms 250ms forwards;
 }
 
 #main-course {
   opacity: 0;
-  animation: displayBloc 300ms 500ms forwards;
+  animation: displayBloc 500ms 750ms forwards;
 }
 
 #dessert {
   opacity: 0;
-  animation: displayBloc 300ms 750ms forwards;
+  animation: displayBloc 500ms 1250ms forwards;
 }
 
 @keyframes displayBloc {

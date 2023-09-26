@@ -2,6 +2,7 @@
   width: 100%;
 }
 .menu__food {
+  overflow: hidden;
   background-color: white;
   border-radius: 15px;
   display: flex;

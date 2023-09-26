@@ -3,6 +3,7 @@
 .menu{
     width: 100%;
     &__food{
+        overflow: hidden; //pour pas le contenu ne sorte
         background-color: $white;
         border-radius: 15px;
         display: flex;
