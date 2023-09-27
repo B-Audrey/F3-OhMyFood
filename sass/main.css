@@ -2,7 +2,6 @@
 @import 'base/base.css';
 @import 'base/animations.css';
 @import 'layout/header.css';
-@import 'layout/menu.css';
 @import 'layout/footer.css';
 @import 'components/loader.css';
 @import 'components/buttons.css';
