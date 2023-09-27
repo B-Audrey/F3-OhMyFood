@@ -29,8 +29,8 @@
 .loaderB{
     width: 80px; //fait un carré
     height: 40px; 
-    border-top: 3px solid $second-light-color ; 
-    border-bottom: 3px solid $second-light-color ; 
+    border-top: 3px solid $tertiary-color;
+    border-bottom: 3px solid $tertiary-color;
     animation: turn 2s linear infinite;
 }
 .loaderC{
